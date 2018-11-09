@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{63b04ed5-a0ce-4a6f-a670-75aaa73313bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{ce3f1621-9397-4f49-b6be-0a88713f41e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{1b2031bc-7556-419b-a6dc-d55307d6a209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CameraSystems">
+      <UniqueIdentifier>{e22d515e-8596-4ec8-9ad1-2cf9604c6c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{1585d102-be7f-4d97-8931-89dd5db30fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Box2D">
+      <UniqueIdentifier>{8e11918a-bfdb-4f49-a3b9-6f94788259ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\InputSystems">
+      <UniqueIdentifier>{04d6c798-e462-4c6a-8fdf-93d0c12435d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DebugSystems">
+      <UniqueIdentifier>{706710a7-90ea-4d64-b372-7bd44f7d6aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Objects">
+      <UniqueIdentifier>{9618cdde-0dc7-4cab-ba21-75a723e3c950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneSystems">
+      <UniqueIdentifier>{c25e3226-746f-4cd3-86b7-a1eddb0fdd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\OpenGLPipeline">
+      <UniqueIdentifier>{4e696dc7-dddf-4b14-84f3-3453e60ab3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{2c730f95-b755-4fab-90ee-94ce16554ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\RenderingSystems">
+      <UniqueIdentifier>{e268d948-d685-4794-be6f-fe11164c0283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\RenderingSystems\2D">
+      <UniqueIdentifier>{2d6b8cc6-7a03-4fe4-bd7b-ed1b012b1500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Text">
+      <UniqueIdentifier>{e04a1baf-e83a-447f-807f-a4c53bf26e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{158649cf-f96f-4533-bd69-f2a138bb3f19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\TerrainScene.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AssetMgr.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine\CameraSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Component.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ContactListener.cpp">
+      <Filter>Engine\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CXBOXController.cpp">
+      <Filter>Engine\InputSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Debug.cpp">
+      <Filter>Engine\DebugSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>Engine\InputSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MeshComponent.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RigidBody2D.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene.cpp">
+      <Filter>Engine\SceneSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneMgr.cpp">
+      <Filter>Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ShaderLoader.cpp">
+      <Filter>Engine\OpenGLPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sound.cpp">
+      <Filter>Engine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SpriteRender.cpp">
+      <Filter>Engine\RenderingSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>Engine\RenderingSystems\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextLabel.cpp">
+      <Filter>Engine\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextLoader.cpp">
+      <Filter>Engine\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Time.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Utility.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\TerrainScene.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\AssetMgr.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine\CameraSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Component.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ContactListener.h">
+      <Filter>Engine\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CXBOXController.h">
+      <Filter>Engine\InputSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Debug.h">
+      <Filter>Engine\DebugSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>Engine\InputSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MeshComponent.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RigidBody2D.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene.h">
+      <Filter>Engine\SceneSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneMgr.h">
+      <Filter>Engine\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ShaderLoader.h">
+      <Filter>Engine\OpenGLPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sound.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SpriteRender.h">
+      <Filter>Engine\RenderingSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Engine\RenderingSystems\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextLabel.h">
+      <Filter>Engine\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextLoader.h">
+      <Filter>Engine\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

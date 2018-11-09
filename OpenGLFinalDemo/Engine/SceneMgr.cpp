@@ -5,7 +5,6 @@
 // Local Include
 #include "Scene.h"
 #include "Debug.h"
-#include "Project/PhysicsScene.h"
 // Static Variable
 CSceneMgr* CSceneMgr::s_pSceneMgr = nullptr;
 
@@ -28,12 +27,11 @@ void CSceneMgr::DestroyInstance()
 void CSceneMgr::InitializeScenes()
 {
 	/** Create scenes that is going to build in the game */
-	CreateNewScene("ClothDemo", new CPhysicsScene());
 	/** Run the first scene */
 	
 	if (!m_scenes.empty())
 	{
-		LoadScene("ClothDemo");
+		//LoadScene("ClothDemo");
 	}
 	else
 	{
