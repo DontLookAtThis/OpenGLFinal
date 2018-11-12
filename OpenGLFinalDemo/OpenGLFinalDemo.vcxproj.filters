@@ -61,6 +61,9 @@
     <Filter Include="Engine\Timer">
       <UniqueIdentifier>{158649cf-f96f-4533-bd69-f2a138bb3f19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Shaders">
+      <UniqueIdentifier>{846b850f-67d7-449b-945f-a2621735bcec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine\Main.cpp">
@@ -125,6 +128,15 @@
     </ClCompile>
     <ClCompile Include="Engine\Time.cpp">
       <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\OpenGLScene.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\RainParticle.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\ParticleSystem.cpp">
+      <Filter>Project</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -194,5 +206,25 @@
     <ClInclude Include="Engine\Time.h">
       <Filter>Engine\Timer</Filter>
     </ClInclude>
+    <ClInclude Include="Project\OpenGLScene.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\RainParticle.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\ParticleSystem.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Shaders\Particle.fs">
+      <Filter>Engine\Shaders</Filter>
+    </None>
+    <None Include="Engine\Shaders\Particle.gs">
+      <Filter>Engine\Shaders</Filter>
+    </None>
+    <None Include="Engine\Shaders\Particle.vs">
+      <Filter>Engine\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

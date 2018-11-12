@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{69CCA087-C3B7-4177-9CE8-D2F45C7339A8}</ProjectGuid>
     <RootNamespace>OpenGLFinalDemo</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,6 +146,9 @@
     <ClCompile Include="Engine\TextLabel.cpp" />
     <ClCompile Include="Engine\TextLoader.cpp" />
     <ClCompile Include="Engine\Time.cpp" />
+    <ClCompile Include="Project\OpenGLScene.cpp" />
+    <ClCompile Include="Project\ParticleSystem.cpp" />
+    <ClCompile Include="Project\RainParticle.cpp" />
     <ClCompile Include="Project\TerrainScene.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -170,7 +173,15 @@
     <ClInclude Include="Engine\TextLoader.h" />
     <ClInclude Include="Engine\Time.h" />
     <ClInclude Include="Engine\Utility.h" />
+    <ClInclude Include="Project\OpenGLScene.h" />
+    <ClInclude Include="Project\ParticleSystem.h" />
+    <ClInclude Include="Project\RainParticle.h" />
     <ClInclude Include="Project\TerrainScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine\Shaders\Particle.fs" />
+    <None Include="Engine\Shaders\Particle.gs" />
+    <None Include="Engine\Shaders\Particle.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

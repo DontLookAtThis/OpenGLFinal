@@ -33,7 +33,7 @@ void CCamera::CalcViewMatrix()
 {
 	m_viewMatrix = glm::lookAt(
 		m_cameraPosition * (float)util::PIXELUNIT, 
-		/*m_cameraPosition * (float)util::PIXELUNIT +*/ m_cameraFacing,
+		m_cameraPosition * (float)util::PIXELUNIT + m_cameraFacing,
 		m_cameraNormal);
 }
 

@@ -5,6 +5,7 @@
 // Local Include
 #include "Scene.h"
 #include "Debug.h"
+#include "Project/TerrainScene.h"
 // Static Variable
 CSceneMgr* CSceneMgr::s_pSceneMgr = nullptr;
 
@@ -28,10 +29,11 @@ void CSceneMgr::InitializeScenes()
 {
 	/** Create scenes that is going to build in the game */
 	/** Run the first scene */
-	
+	CreateNewScene("OpenGLDemo", new CTerrainScene());
+
 	if (!m_scenes.empty())
 	{
-		//LoadScene("ClothDemo");
+		LoadScene("OpenGLDemo");
 	}
 	else
 	{
