@@ -8,6 +8,9 @@
 #include "Engine/Debug.h"
 #include "Engine/Time.h"
 
+#include "ParticleSystem.h"
+#include "RainParticle.h"
+
 #include <cmath>
 #include <math.h>
 #include <array>
@@ -27,6 +30,7 @@ void COpenGlScene::ConfigurateScene()
 	this->m_sceneName = "OpenGLScene";
 	/** Create Camera Object */
 	this->m_mainCamera = new CCamera();
+
 }
 
 void COpenGlScene::ResetScene()

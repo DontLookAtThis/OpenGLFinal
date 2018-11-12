@@ -1,6 +1,6 @@
 #include "ParticleSystem.h"
 
-ParticleSystem::ParticleSystem(glm::vec3 origin, CCamera * _camera, std::string texFileName)
+CParticleSystem::CParticleSystem(glm::vec3 origin, CCamera * _camera, std::string texFileName)
 {
 	m_pCamera = _camera;
 	nParticles = 4000; for (int i = 0; i < nParticles; i++) {
@@ -30,12 +30,12 @@ ParticleSystem::ParticleSystem(glm::vec3 origin, CCamera * _camera, std::string 
 	glBindVertexArray(0);
 }
 
-ParticleSystem::~ParticleSystem()
+CParticleSystem::~CParticleSystem()
 {
 
 }
 
-void ParticleSystem::render(float dt)
+void CParticleSystem::render(float dt)
 {
 	for (int i = 0; i < nParticles; i++)
 	{
@@ -78,7 +78,7 @@ void ParticleSystem::render(float dt)
 }
 
 
-float ParticleSystem::Randomization()
+float CParticleSystem::Randomization()
 {
 	float fr = (float)rand() / (double)RAND_MAX;
 	return fr;

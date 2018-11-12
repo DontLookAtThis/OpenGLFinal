@@ -22,6 +22,8 @@ public:
 	virtual void ResetScene() override;
 	virtual void UpdateScene(float _tick) override;
 
+
+	class CParticleSystem* particles;
 private:
 
 };

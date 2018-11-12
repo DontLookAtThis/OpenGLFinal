@@ -2,11 +2,11 @@
 #include "RainParticle.h"
 #include "Engine/Camera.h"
 
-class ParticleSystem {
+class CParticleSystem {
 
 public: 
-	ParticleSystem(glm::vec3 origin, CCamera* _camera, std::string texFileName);
-	~ParticleSystem();
+	CParticleSystem(glm::vec3 origin, CCamera* _camera, std::string texFileName);
+	~CParticleSystem();
 		
 	void render(float dt);
 		
